@@ -1,0 +1,45 @@
+.result {
+  margin-top: 32px;
+  padding: 24px;
+
+  border: 1px solid #ddd;
+  border-radius: 12px;
+}
+
+.result h3 {
+  margin: 0 0 20px;
+}
+
+.calculation-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 8px 0;
+}
+
+.calculation-row strong {
+  min-width: 80px;
+  text-align: right;
+}
+
+.result hr {
+  margin: 16px 0;
+
+  border: 0;
+  border-top: 1px solid #ddd;
+}
+
+.final-value {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-top: 4px;
+
+  font-size: 20px;
+}
+
+.final-value strong {
+  font-size: 28px;
+}
