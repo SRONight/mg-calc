@@ -1,0 +1,23 @@
+.size-input {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+
+.size-input input {
+  box-sizing: border-box;
+  width: 100px;
+
+  padding: 10px 12px;
+
+  border: 1px solid #ccc;
+  border-radius: 8px;
+
+  font-size: 16px;
+}
+
+.size-input .hint {
+  margin-top: 8px;
+  color: #666;
+}

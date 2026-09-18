@@ -1,0 +1,40 @@
+.mutation-group {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  margin-bottom: 12px;
+}
+
+.mutation-group h4 {
+  flex: 0 0 80px;
+
+  margin: 0;
+
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.mutation-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.mutation-button {
+  padding: 6px 10px;
+
+  border: 1px solid #555;
+  border-radius: 6px;
+
+  font-size: 13px;
+  line-height: 1.2;
+
+  cursor: pointer;
+}
+
+.mutation-button.selected {
+  outline: 2px solid #fff;
+  outline-offset: 1px;
+}
